@@ -17,6 +17,6 @@ from django.conf.urls import url, include
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^', include('dchannels.urls', namespace='dchannels', app_name='dchannels')),
+    url(r'^', include('chat.urls', namespace='chat', app_name='chat')),
     url(r'^admin/', admin.site.urls),
 ]
